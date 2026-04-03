@@ -1,0 +1,667 @@
+{
+  "results": [
+    {
+      "fight": "Joe Louis vs Jersey Joe Walcott II",
+      "predicted_winner": "Joe Louis",
+      "actual_winner": "Joe Louis",
+      "correct": true,
+      "confidence": 99.0,
+      "factors": {
+        "event_chart": {
+          "champion": 8.0,
+          "challenger": 8.0,
+          "dominant": "even"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 16.0,
+          "challenger": -12.0,
+          "dominant": "champion"
+        },
+        "combined": {
+          "champion": 16.0,
+          "challenger": -12.0
+        }
+      }
+    },
+    {
+      "fight": "Rocky Marciano vs Joe Louis",
+      "predicted_winner": "Rocky Marciano",
+      "actual_winner": "Rocky Marciano",
+      "correct": true,
+      "confidence": 73.9,
+      "factors": {
+        "event_chart": {
+          "champion": -3.0,
+          "challenger": 4.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 16.0,
+          "challenger": 24.0,
+          "dominant": "challenger"
+        },
+        "combined": {
+          "champion": 15.62,
+          "challenger": 23.6
+        }
+      }
+    },
+    {
+      "fight": "Rocky Marciano vs Jersey Joe Walcott",
+      "predicted_winner": "Rocky Marciano",
+      "actual_winner": "Rocky Marciano",
+      "correct": true,
+      "confidence": 99.0,
+      "factors": {
+        "event_chart": {
+          "champion": -1.0,
+          "challenger": -4.0,
+          "dominant": "champion"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": -12.0,
+          "challenger": 24.0,
+          "dominant": "challenger"
+        },
+        "combined": {
+          "champion": -11.78,
+          "challenger": 23.44
+        }
+      }
+    },
+    {
+      "fight": "Floyd Patterson vs Archie Moore",
+      "predicted_winner": "Floyd Patterson",
+      "actual_winner": "Floyd Patterson",
+      "correct": true,
+      "confidence": 62.0,
+      "factors": {
+        "event_chart": {
+          "champion": -15.0,
+          "challenger": -9.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": 0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 16.0,
+          "challenger": 16.0,
+          "dominant": "even"
+        },
+        "combined": {
+          "champion": -8.8,
+          "challenger": -4.0
+        }
+      }
+    },
+    {
+      "fight": "Floyd Patterson vs Ingemar Johansson",
+      "predicted_winner": "Ingemar Johansson",
+      "actual_winner": "Ingemar Johansson",
+      "correct": true,
+      "confidence": 99.0,
+      "factors": {
+        "event_chart": {
+          "champion": -1.0,
+          "challenger": 15.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": -0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 16.0,
+          "challenger": 44.0,
+          "dominant": "challenger"
+        },
+        "combined": {
+          "champion": 15.66,
+          "challenger": 43.42
+        }
+      }
+    },
+    {
+      "fight": "Floyd Patterson vs Ingemar Johansson II",
+      "predicted_winner": "Ingemar Johansson",
+      "actual_winner": "Floyd Patterson",
+      "correct": false,
+      "confidence": 99.0,
+      "factors": {
+        "event_chart": {
+          "champion": -1.0,
+          "challenger": 11.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 44.0,
+          "challenger": 16.0,
+          "dominant": "champion"
+        },
+        "combined": {
+          "champion": 43.1,
+          "challenger": 15.9
+        }
+      }
+    },
+    {
+      "fight": "Sonny Liston vs Floyd Patterson",
+      "predicted_winner": "Sonny Liston",
+      "actual_winner": "Sonny Liston",
+      "correct": true,
+      "confidence": 87.7,
+      "factors": {
+        "event_chart": {
+          "champion": -22.0,
+          "challenger": 19.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": -0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 16.0,
+          "challenger": 28.0,
+          "dominant": "challenger"
+        },
+        "combined": {
+          "champion": 15.24,
+          "challenger": 27.82
+        }
+      }
+    },
+    {
+      "fight": "Cassius Clay vs Sonny Liston",
+      "predicted_winner": "Cassius Clay",
+      "actual_winner": "Cassius Clay",
+      "correct": true,
+      "confidence": 60.9,
+      "factors": {
+        "event_chart": {
+          "champion": 10.0,
+          "challenger": -4.0,
+          "dominant": "champion"
+        },
+        "natal_vitality": {
+          "champion": 0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 28.0,
+          "challenger": 32.0,
+          "dominant": "challenger"
+        },
+        "combined": {
+          "champion": 27.64,
+          "challenger": 31.28
+        }
+      }
+    },
+    {
+      "fight": "Muhammad Ali vs Sonny Liston II",
+      "predicted_winner": "Muhammad Ali",
+      "actual_winner": "Muhammad Ali",
+      "correct": true,
+      "confidence": 60.0,
+      "factors": {
+        "event_chart": {
+          "champion": 4.0,
+          "challenger": 4.0,
+          "dominant": "even"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": -0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 32.0,
+          "challenger": 28.0,
+          "dominant": "champion"
+        },
+        "combined": {
+          "champion": 32.0,
+          "challenger": 28.0
+        }
+      }
+    },
+    {
+      "fight": "Muhammad Ali vs Joe Frazier I",
+      "predicted_winner": "Muhammad Ali",
+      "actual_winner": "Joe Frazier",
+      "correct": false,
+      "confidence": 99.0,
+      "factors": {
+        "event_chart": {
+          "champion": -5.0,
+          "challenger": -2.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": -0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": -16.0,
+          "challenger": 32.0,
+          "dominant": "challenger"
+        },
+        "combined": {
+          "champion": -15.78,
+          "challenger": 31.32
+        }
+      }
+    },
+    {
+      "fight": "George Foreman vs Joe Frazier",
+      "predicted_winner": "George Foreman",
+      "actual_winner": "George Foreman",
+      "correct": true,
+      "confidence": 61.2,
+      "factors": {
+        "event_chart": {
+          "champion": 4.0,
+          "challenger": -5.0,
+          "dominant": "champion"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": -0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": -16.0,
+          "challenger": -12.0,
+          "dominant": "challenger"
+        },
+        "combined": {
+          "champion": -15.6,
+          "challenger": -11.86
+        }
+      }
+    },
+    {
+      "fight": "Muhammad Ali vs George Foreman",
+      "predicted_winner": "Muhammad Ali",
+      "actual_winner": "Muhammad Ali",
+      "correct": true,
+      "confidence": 99.0,
+      "factors": {
+        "event_chart": {
+          "champion": -1.0,
+          "challenger": 4.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": -12.0,
+          "challenger": 32.0,
+          "dominant": "challenger"
+        },
+        "combined": {
+          "champion": -11.78,
+          "challenger": 31.44
+        }
+      }
+    },
+    {
+      "fight": "Muhammad Ali vs Joe Frazier III",
+      "predicted_winner": "Muhammad Ali",
+      "actual_winner": "Muhammad Ali",
+      "correct": true,
+      "confidence": 99.0,
+      "factors": {
+        "event_chart": {
+          "champion": -11.0,
+          "challenger": 0.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": -0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 32.0,
+          "challenger": -16.0,
+          "dominant": "champion"
+        },
+        "combined": {
+          "champion": 31.14,
+          "challenger": -15.68
+        }
+      }
+    },
+    {
+      "fight": "Muhammad Ali vs Ken Norton III",
+      "predicted_winner": "Muhammad Ali",
+      "actual_winner": "Muhammad Ali",
+      "correct": true,
+      "confidence": 99.0,
+      "factors": {
+        "event_chart": {
+          "champion": -24.0,
+          "challenger": -4.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": -0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 32.0,
+          "challenger": -24.0,
+          "dominant": "champion"
+        },
+        "combined": {
+          "champion": 30.88,
+          "challenger": -23.6
+        }
+      }
+    },
+    {
+      "fight": "Larry Holmes vs Ken Norton",
+      "predicted_winner": "Larry Holmes",
+      "actual_winner": "Larry Holmes",
+      "correct": true,
+      "confidence": 99.0,
+      "factors": {
+        "event_chart": {
+          "champion": 0.0,
+          "challenger": 8.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": 0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": -24.0,
+          "challenger": 20.0,
+          "dominant": "challenger"
+        },
+        "combined": {
+          "champion": -23.52,
+          "challenger": 19.76
+        }
+      }
+    },
+    {
+      "fight": "Mike Tyson vs Trevor Berbick",
+      "predicted_winner": "Mike Tyson",
+      "actual_winner": "Mike Tyson",
+      "correct": true,
+      "confidence": 74.7,
+      "factors": {
+        "event_chart": {
+          "champion": -20.0,
+          "challenger": 0.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": 0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": -8.0,
+          "challenger": 0.0,
+          "dominant": "challenger"
+        },
+        "combined": {
+          "champion": -8.24,
+          "challenger": 0.0
+        }
+      }
+    },
+    {
+      "fight": "Mike Tyson vs Michael Spinks",
+      "predicted_winner": "Mike Tyson",
+      "actual_winner": "Mike Tyson",
+      "correct": true,
+      "confidence": 99.0,
+      "factors": {
+        "event_chart": {
+          "champion": 5.0,
+          "challenger": -13.0,
+          "dominant": "champion"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 0.0,
+          "challenger": -40.0,
+          "dominant": "champion"
+        },
+        "combined": {
+          "champion": 0.1,
+          "challenger": -39.46
+        }
+      }
+    },
+    {
+      "fight": "Evander Holyfield vs Mike Tyson I",
+      "predicted_winner": "Evander Holyfield",
+      "actual_winner": "Evander Holyfield",
+      "correct": true,
+      "confidence": 85.1,
+      "factors": {
+        "event_chart": {
+          "champion": -3.0,
+          "challenger": -6.0,
+          "dominant": "champion"
+        },
+        "natal_vitality": {
+          "champion": -0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 0.0,
+          "challenger": 12.0,
+          "dominant": "challenger"
+        },
+        "combined": {
+          "champion": -0.06,
+          "challenger": 11.64
+        }
+      }
+    },
+    {
+      "fight": "Lennox Lewis vs Evander Holyfield II",
+      "predicted_winner": "Lennox Lewis",
+      "actual_winner": "Lennox Lewis",
+      "correct": true,
+      "confidence": 99.0,
+      "factors": {
+        "event_chart": {
+          "champion": -9.0,
+          "challenger": 22.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": 0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 12.0,
+          "challenger": 12.0,
+          "dominant": "even"
+        },
+        "combined": {
+          "champion": -4.8,
+          "challenger": 20.0
+        }
+      }
+    },
+    {
+      "fight": "Lennox Lewis vs Mike Tyson",
+      "predicted_winner": "Lennox Lewis",
+      "actual_winner": "Lennox Lewis",
+      "correct": true,
+      "confidence": 83.9,
+      "factors": {
+        "event_chart": {
+          "champion": -2.0,
+          "challenger": 21.0,
+          "dominant": "challenger"
+        },
+        "natal_vitality": {
+          "champion": 0.0,
+          "challenger": -0.0,
+          "dominant": "even"
+        },
+        "natal_alertness": {
+          "champion": 0.0,
+          "challenger": 0.0,
+          "dominant": "even"
+        },
+        "natal_temperament": {
+          "champion": 12.0,
+          "challenger": 0.0,
+          "dominant": "champion"
+        },
+        "combined": {
+          "champion": 11.72,
+          "challenger": 0.42
+        }
+      }
+    }
+  ],
+  "correct": 18,
+  "total": 20,
+  "accuracy": 90.0
+}
