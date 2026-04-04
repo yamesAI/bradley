@@ -5,31 +5,31 @@
       "predicted_winner": "Frank Klaus",
       "actual_winner": "Frank Klaus",
       "correct": true,
-      "confidence": 56.8,
+      "confidence": 74.5,
       "factors": {
         "event_chart": {
-          "champion": 7.0,
+          "champion": 15.0,
           "challenger": 3.0,
           "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": 1.0,
+          "champion": 4.5,
           "challenger": -2.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -8.0,
-          "challenger": -14.0,
+          "champion": -6.0,
+          "challenger": -18.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 0.0,
-          "challenger": 12.0,
+          "champion": -9.0,
+          "challenger": 9.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 4.2,
-          "challenger": 1.5
+          "champion": 9.9,
+          "challenger": 0.1
         }
       }
     },
@@ -41,28 +41,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -7.0,
-          "challenger": 4.0,
+          "champion": -1.0,
+          "challenger": 9.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 2.0,
+          "champion": 4.0,
           "challenger": 2.0,
-          "dominant": "even"
+          "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -14.0,
-          "challenger": -8.0,
+          "champion": -18.0,
+          "challenger": -6.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 16.0,
-          "challenger": 36.0,
+          "champion": 21.0,
+          "challenger": 48.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 3.78,
-          "challenger": 29.48
+          "champion": 6.84,
+          "challenger": 43.3
         }
       }
     },
@@ -71,11 +71,11 @@
       "predicted_winner": "Sid Smith",
       "actual_winner": "Bill Ladbury",
       "correct": false,
-      "confidence": 74.2,
+      "confidence": 83.2,
       "factors": {
         "event_chart": {
-          "champion": 0.0,
-          "challenger": 12.0,
+          "champion": 8.0,
+          "challenger": 23.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -84,18 +84,18 @@
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 0.0,
-          "challenger": -8.0,
+          "champion": 2.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 24.0,
-          "challenger": 36.0,
+          "champion": 33.0,
+          "challenger": 48.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 21.56,
-          "challenger": 29.64
+          "champion": 32.5,
+          "challenger": 43.58
         }
       }
     },
@@ -107,28 +107,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -13.0,
-          "challenger": 0.0,
+          "champion": -14.0,
+          "challenger": 8.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -1.5,
-          "challenger": 1.0,
+          "champion": -1.0,
+          "challenger": 4.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 4.0,
-          "challenger": -8.0,
+          "champion": 14.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -56.0,
-          "challenger": 0.0,
+          "champion": -51.0,
+          "challenger": -9.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -52.69,
-          "challenger": -6.86
+          "champion": -37.52,
+          "challenger": -10.13
         }
       }
     },
@@ -140,8 +140,8 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -8.0,
-          "challenger": 7.0,
+          "champion": -10.0,
+          "challenger": 16.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -150,18 +150,18 @@
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -6.0,
-          "challenger": 0.0,
+          "champion": -4.0,
+          "challenger": 2.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -20.0,
-          "challenger": 24.0,
+          "champion": -24.0,
+          "challenger": 33.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -28.09,
-          "challenger": 21.7
+          "champion": -30.09,
+          "challenger": 32.66
         }
       }
     },
@@ -173,28 +173,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 0.0,
-          "challenger": 3.0,
+          "champion": 1.0,
+          "challenger": 9.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 2.0,
+          "champion": 4.0,
           "challenger": -2.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -14.0,
-          "challenger": -6.0,
+          "champion": -18.0,
+          "challenger": -4.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 16.0,
-          "challenger": -20.0,
+          "champion": 21.0,
+          "challenger": -24.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 4.0,
-          "challenger": -28.5
+          "champion": 6.88,
+          "challenger": -29.71
         }
       }
     },
@@ -206,28 +206,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 0.0,
-          "challenger": 2.0,
+          "champion": 1.0,
+          "challenger": 9.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -1.5,
-          "challenger": -1.0,
+          "champion": -1.0,
+          "challenger": 1.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 4.0,
-          "challenger": 14.0,
+          "champion": 14.0,
+          "challenger": 22.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -56.0,
-          "challenger": -4.0,
+          "champion": -51.0,
+          "challenger": 0.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -53.5,
-          "challenger": 9.0
+          "champion": -37.22,
+          "challenger": 22.72
         }
       }
     },
@@ -239,28 +239,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 12.0,
-          "challenger": 9.0,
+          "champion": 22.0,
+          "challenger": 12.0,
           "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": 4.0,
+          "champion": 7.5,
           "challenger": -2.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -6.0,
-          "challenger": -6.0,
+          "champion": -4.0,
+          "challenger": -4.0,
           "dominant": "even"
         },
         "natal_temperament": {
-          "champion": 12.0,
-          "challenger": -20.0,
+          "champion": 18.0,
+          "challenger": -24.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 10.0,
-          "challenger": -28.5
+          "champion": 21.51,
+          "challenger": -29.65
         }
       }
     },
@@ -272,28 +272,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -6.0,
-          "challenger": 1.0,
+          "champion": -5.0,
+          "challenger": -2.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 4.0,
-          "challenger": 0.0,
+          "champion": 7.5,
+          "challenger": 3.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -4.0,
-          "challenger": 12.0,
+          "champion": -8.0,
+          "challenger": 14.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -40.0,
-          "challenger": 8.0,
+          "champion": -30.0,
+          "challenger": 6.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -39.32,
-          "challenger": 19.62
+          "champion": -30.5,
+          "challenger": 23.5
         }
       }
     },
@@ -305,28 +305,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -2.0,
+          "champion": 2.0,
           "challenger": 8.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -2.0,
-          "challenger": -1.5,
-          "dominant": "challenger"
+          "champion": 0.0,
+          "challenger": -3.0,
+          "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 2.0,
+          "champion": -6.0,
+          "challenger": 6.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 32.0,
-          "challenger": -8.0,
+          "champion": 33.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 27.4,
-          "challenger": -7.19
+          "champion": 26.5,
+          "challenger": -2.78
         }
       }
     },
@@ -338,61 +338,61 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 6.0,
+          "champion": 7.0,
           "challenger": 8.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 4.5,
-          "challenger": 0.5,
+          "champion": 7.5,
+          "challenger": 2.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 6.0,
-          "challenger": 14.0,
+          "champion": 14.0,
+          "challenger": 22.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -32.0,
-          "challenger": 28.0,
+          "champion": -24.0,
+          "challenger": 21.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -21.5,
-          "challenger": 42.5
+          "champion": -2.5,
+          "challenger": 45.5
         }
       }
     },
     {
       "fight": "Jimmy Wilde vs Tancy Lee",
-      "predicted_winner": "Jimmy Wilde",
+      "predicted_winner": "Tancy Lee",
       "actual_winner": "Tancy Lee",
-      "correct": false,
-      "confidence": 97.4,
+      "correct": true,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -8.0,
-          "challenger": 11.0,
+          "champion": -11.0,
+          "challenger": 15.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": 2.0,
-          "challenger": 3.5,
+          "challenger": 5.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -14.0,
-          "challenger": 12.0,
+          "champion": -18.0,
+          "challenger": 20.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 24.0,
-          "challenger": -20.0,
+          "champion": 9.0,
+          "challenger": -15.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 11.6,
-          "challenger": -4.19
+          "champion": -7.08,
+          "challenger": 10.59
         }
       }
     },
@@ -404,28 +404,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -6.0,
-          "challenger": 8.0,
+          "champion": -4.0,
+          "challenger": 11.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 4.5,
-          "challenger": 0.5,
+          "champion": 7.5,
+          "challenger": 2.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 6.0,
-          "challenger": 14.0,
+          "champion": 14.0,
+          "challenger": 22.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -32.0,
-          "challenger": 28.0,
+          "champion": -24.0,
+          "challenger": 21.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -21.19,
-          "challenger": 41.81
+          "champion": -2.53,
+          "challenger": 44.81
         }
       }
     },
@@ -437,28 +437,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -10.0,
-          "challenger": 3.0,
+          "champion": -5.0,
+          "challenger": 6.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": 1.0,
-          "challenger": 2.0,
+          "challenger": 5.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 4.0,
-          "challenger": -2.0,
+          "champion": 6.0,
+          "challenger": 0.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 4.0,
-          "challenger": 28.0,
+          "champion": -6.0,
+          "challenger": 21.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 8.62,
-          "challenger": 27.5
+          "champion": 0.88,
+          "challenger": 25.6
         }
       }
     },
@@ -470,28 +470,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -10.0,
-          "challenger": 3.0,
+          "champion": -5.0,
+          "challenger": 6.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -1.5,
-          "challenger": -1.0,
+          "champion": -1.0,
+          "challenger": 1.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 4.0,
-          "challenger": 14.0,
+          "champion": 14.0,
+          "challenger": 22.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -56.0,
-          "challenger": -4.0,
+          "champion": -51.0,
+          "challenger": 0.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -52.63,
-          "challenger": 8.88
+          "champion": -37.34,
+          "challenger": 22.66
         }
       }
     },
@@ -500,64 +500,64 @@
       "predicted_winner": "Joe Symonds",
       "actual_winner": "Joe Symonds",
       "correct": true,
-      "confidence": 86.2,
+      "confidence": 82.9,
       "factors": {
         "event_chart": {
-          "champion": 6.0,
-          "challenger": 7.0,
+          "champion": 9.0,
+          "challenger": 18.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 3.5,
-          "challenger": 4.0,
+          "champion": 5.5,
+          "challenger": 7.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 12.0,
-          "challenger": -6.0,
+          "champion": 20.0,
+          "challenger": -4.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -20.0,
-          "challenger": 12.0,
+          "champion": -15.0,
+          "challenger": 18.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -4.5,
-          "challenger": 10.0
+          "champion": 10.47,
+          "challenger": 21.43
         }
       }
     },
     {
       "fight": "Jimmy Wilde vs Joe Symonds",
-      "predicted_winner": "Jimmy Wilde",
+      "predicted_winner": "Joe Symonds",
       "actual_winner": "Jimmy Wilde",
-      "correct": true,
-      "confidence": 54.8,
+      "correct": false,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -5.0,
+          "champion": -3.0,
           "challenger": -2.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": 2.0,
-          "challenger": 4.0,
+          "challenger": 7.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -14.0,
-          "challenger": -6.0,
+          "champion": -18.0,
+          "challenger": -4.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 24.0,
-          "challenger": 12.0,
-          "dominant": "champion"
+          "champion": 9.0,
+          "challenger": 18.0,
+          "dominant": "challenger"
         },
         "combined": {
-          "champion": 11.66,
-          "challenger": 9.76
+          "champion": -7.0,
+          "challenger": 21.5
         }
       }
     },
@@ -566,64 +566,64 @@
       "predicted_winner": "Benny Leonard",
       "actual_winner": "Benny Leonard",
       "correct": true,
-      "confidence": 99.0,
+      "confidence": 91.7,
       "factors": {
         "event_chart": {
-          "champion": 1.0,
-          "challenger": 10.0,
+          "champion": 3.0,
+          "challenger": 19.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": 1.0,
-          "challenger": 4.5,
+          "challenger": 7.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 0.0,
-          "challenger": 6.0,
+          "champion": 2.0,
+          "challenger": 14.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 12.0,
-          "challenger": -32.0,
+          "champion": 9.0,
+          "challenger": -24.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 12.76,
-          "challenger": -20.87
+          "champion": 11.82,
+          "challenger": -2.07
         }
       }
     },
     {
       "fight": "Jimmy Wilde vs Tancy Lee",
-      "predicted_winner": "Jimmy Wilde",
+      "predicted_winner": "Tancy Lee",
       "actual_winner": "Jimmy Wilde",
-      "correct": true,
-      "confidence": 97.8,
+      "correct": false,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -2.0,
-          "challenger": 9.0,
+          "champion": -1.0,
+          "challenger": 13.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": 2.0,
-          "challenger": 3.5,
+          "challenger": 5.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -14.0,
-          "challenger": 12.0,
+          "champion": -18.0,
+          "challenger": 20.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 24.0,
-          "challenger": -20.0,
+          "champion": 9.0,
+          "challenger": -15.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 11.72,
-          "challenger": -4.23
+          "champion": -6.88,
+          "challenger": 10.55
         }
       }
     },
@@ -635,28 +635,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -1.0,
-          "challenger": 14.0,
+          "champion": 3.0,
+          "challenger": 23.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 0.0,
-          "challenger": 0.0,
-          "dominant": "even"
+          "champion": 1.5,
+          "challenger": 3.5,
+          "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 14.0,
-          "challenger": 12.0,
+          "champion": 22.0,
+          "challenger": 14.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -48.0,
-          "challenger": 8.0,
+          "champion": -45.0,
+          "challenger": 6.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -33.34,
-          "challenger": 19.88
+          "champion": -21.01,
+          "challenger": 23.49
         }
       }
     },
@@ -665,31 +665,31 @@
       "predicted_winner": "Benny Leonard",
       "actual_winner": "Benny Leonard",
       "correct": true,
-      "confidence": 99.0,
+      "confidence": 86.2,
       "factors": {
         "event_chart": {
-          "champion": 6.0,
-          "challenger": 4.0,
+          "champion": 12.0,
+          "challenger": 11.0,
           "dominant": "champion"
         },
         "natal_vitality": {
           "champion": 1.0,
-          "challenger": 4.5,
+          "challenger": 7.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 0.0,
-          "challenger": 6.0,
+          "champion": 2.0,
+          "challenger": 14.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 12.0,
-          "challenger": -32.0,
+          "champion": 9.0,
+          "challenger": -24.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 13.0,
-          "challenger": -21.5
+          "champion": 12.0,
+          "challenger": -2.5
         }
       }
     },
@@ -701,28 +701,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -11.0,
-          "challenger": 8.0,
+          "champion": -9.0,
+          "challenger": 13.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": 1.0,
-          "challenger": -1.0,
-          "dominant": "champion"
+          "challenger": 1.0,
+          "dominant": "even"
         },
         "natal_alertness": {
-          "champion": 6.0,
-          "challenger": 14.0,
+          "champion": 8.0,
+          "challenger": 22.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -24.0,
-          "challenger": -4.0,
+          "champion": -15.0,
+          "challenger": 0.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -16.88,
-          "challenger": 8.98
+          "champion": -6.06,
+          "challenger": 22.8
         }
       }
     },
@@ -731,31 +731,31 @@
       "predicted_winner": "Jack Dempsey",
       "actual_winner": "Jack Dempsey",
       "correct": true,
-      "confidence": 99.0,
+      "confidence": 96.3,
       "factors": {
         "event_chart": {
-          "champion": -4.0,
-          "challenger": 6.0,
+          "champion": -5.0,
+          "challenger": 7.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 2.0,
-          "challenger": 2.0,
-          "dominant": "even"
+          "champion": 4.0,
+          "challenger": 5.0,
+          "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 12.0,
-          "challenger": -2.0,
+          "champion": 14.0,
+          "challenger": 0.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 32.0,
-          "challenger": 28.0,
+          "champion": 24.0,
+          "challenger": 21.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 45.0,
-          "challenger": 27.56
+          "champion": 41.06,
+          "challenger": 25.62
         }
       }
     },
@@ -764,11 +764,11 @@
       "predicted_winner": "Johnny Wilson",
       "actual_winner": "Johnny Wilson",
       "correct": true,
-      "confidence": 64.6,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
           "champion": -2.0,
-          "challenger": 21.0,
+          "challenger": 34.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -777,18 +777,18 @@
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 6.0,
-          "challenger": 0.0,
+          "champion": 8.0,
+          "challenger": 2.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -24.0,
-          "challenger": -12.0,
+          "champion": -15.0,
+          "challenger": -9.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -16.7,
-          "challenger": -11.83
+          "champion": -2.8,
+          "challenger": 25.7
         }
       }
     },
@@ -800,28 +800,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -5.0,
-          "challenger": -3.0,
-          "dominant": "challenger"
+          "champion": -4.0,
+          "challenger": -7.0,
+          "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": 0.0,
-          "challenger": 5.5,
+          "champion": 1.5,
+          "challenger": 9.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 14.0,
-          "challenger": -8.0,
+          "champion": 22.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -48.0,
-          "challenger": 32.0,
+          "champion": -45.0,
+          "challenger": 33.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -34.0,
-          "challenger": 29.5
+          "champion": -21.5,
+          "challenger": 36.0
         }
       }
     },
@@ -830,11 +830,11 @@
       "predicted_winner": "Johnny Wilson",
       "actual_winner": "Johnny Wilson",
       "correct": true,
-      "confidence": 64.6,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
           "champion": -8.0,
-          "challenger": 15.0,
+          "challenger": 27.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -843,18 +843,18 @@
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 6.0,
-          "challenger": 0.0,
+          "champion": 8.0,
+          "challenger": 2.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -24.0,
-          "challenger": -12.0,
+          "champion": -15.0,
+          "challenger": -9.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -16.82,
-          "challenger": -11.95
+          "champion": -7.6,
+          "challenger": 20.1
         }
       }
     },
@@ -866,28 +866,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 2.0,
-          "challenger": 9.0,
+          "champion": 7.0,
+          "challenger": 11.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": 1.0,
-          "challenger": 2.0,
+          "challenger": 4.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 0.0,
-          "challenger": -2.0,
+          "champion": 2.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 12.0,
-          "challenger": -32.0,
+          "champion": 9.0,
+          "challenger": -33.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 12.78,
-          "challenger": -31.18
+          "champion": 11.9,
+          "challenger": -34.08
         }
       }
     },
@@ -899,28 +899,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -9.0,
+          "champion": -8.0,
           "challenger": -5.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 2.0,
+          "champion": 4.0,
           "challenger": -2.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 12.0,
-          "challenger": -14.0,
+          "champion": 14.0,
+          "challenger": -18.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 32.0,
-          "challenger": 12.0,
+          "champion": 24.0,
+          "challenger": 9.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 44.9,
-          "challenger": -4.51
+          "champion": 42.0,
+          "challenger": -11.5
         }
       }
     },
@@ -932,28 +932,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -6.0,
-          "challenger": -1.0,
+          "champion": -9.0,
+          "challenger": 6.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 0.0,
-          "challenger": 5.5,
+          "champion": 1.5,
+          "challenger": 9.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 14.0,
-          "challenger": -8.0,
+          "champion": 22.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -48.0,
-          "challenger": 32.0,
+          "champion": -45.0,
+          "challenger": 33.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -33.44,
-          "challenger": 28.89
+          "champion": -21.25,
+          "challenger": 35.4
         }
       }
     },
@@ -962,31 +962,31 @@
       "predicted_winner": "Johnny Buff",
       "actual_winner": "Johnny Buff",
       "correct": true,
-      "confidence": 89.1,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -15.0,
-          "challenger": 0.0,
+          "champion": -19.0,
+          "challenger": 7.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 0.0,
-          "challenger": -3.0,
+          "champion": 1.5,
+          "challenger": -4.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 14.0,
-          "challenger": -2.0,
+          "champion": 22.0,
+          "challenger": 0.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -48.0,
-          "challenger": -16.0,
+          "champion": -45.0,
+          "challenger": 0.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -33.62,
-          "challenger": -20.58
+          "champion": -21.45,
+          "challenger": -4.27
         }
       }
     },
@@ -998,28 +998,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -1.0,
-          "challenger": 2.0,
+          "champion": 3.0,
+          "challenger": 8.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": 1.0,
-          "challenger": 2.0,
+          "challenger": 4.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 0.0,
-          "challenger": -2.0,
+          "champion": 2.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 12.0,
-          "challenger": -32.0,
+          "champion": 9.0,
+          "challenger": -33.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 13.0,
-          "challenger": -32.0
+          "champion": 11.82,
+          "challenger": -34.14
         }
       }
     },
@@ -1031,8 +1031,8 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -1.0,
-          "challenger": 20.0,
+          "champion": 0.0,
+          "challenger": 33.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -1041,18 +1041,18 @@
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 0.0,
-          "challenger": -16.0,
+          "champion": 2.0,
+          "challenger": -20.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 12.0,
-          "challenger": -24.0,
+          "champion": 9.0,
+          "challenger": -27.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 12.72,
-          "challenger": -45.17
+          "champion": 11.76,
+          "challenger": -51.77
         }
       }
     },
@@ -1065,27 +1065,27 @@
       "factors": {
         "event_chart": {
           "champion": 1.0,
-          "challenger": 14.0,
+          "challenger": 21.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -3.0,
-          "challenger": 5.5,
+          "champion": -4.5,
+          "challenger": 9.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": -8.0,
+          "champion": 0.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -16.0,
-          "challenger": 32.0,
+          "champion": 0.0,
+          "challenger": 33.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -20.56,
-          "challenger": 29.19
+          "champion": -4.39,
+          "challenger": 35.7
         }
       }
     },
@@ -1094,11 +1094,11 @@
       "predicted_winner": "Georges Carpentier",
       "actual_winner": "Battling Siki",
       "correct": false,
-      "confidence": 78.9,
+      "confidence": 87.3,
       "factors": {
         "event_chart": {
-          "champion": 0.0,
-          "challenger": 8.0,
+          "champion": 1.0,
+          "challenger": 16.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -1107,18 +1107,18 @@
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -14.0,
-          "challenger": -2.0,
+          "champion": -18.0,
+          "challenger": -6.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 12.0,
-          "challenger": -12.0,
+          "champion": 9.0,
+          "challenger": -18.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": -4.41,
-          "challenger": -14.05
+          "champion": -11.25,
+          "challenger": -23.69
         }
       }
     },
@@ -1130,8 +1130,8 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -11.0,
-          "challenger": 4.0,
+          "champion": -13.0,
+          "challenger": 6.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -1140,18 +1140,18 @@
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 8.0,
-          "challenger": -16.0,
+          "champion": 4.0,
+          "challenger": -20.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": -24.0,
+          "champion": 30.0,
+          "challenger": -27.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 11.54,
-          "challenger": -45.49
+          "champion": 29.14,
+          "challenger": -52.31
         }
       }
     },
@@ -1160,31 +1160,31 @@
       "predicted_winner": "Dave Rosenberg",
       "actual_winner": "Mike O'Dowd",
       "correct": false,
-      "confidence": 81.2,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -22.0,
-          "challenger": 8.0,
+          "champion": -28.0,
+          "challenger": 11.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": 1.0,
-          "challenger": -3.0,
+          "challenger": -4.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 6.0,
-          "challenger": -16.0,
+          "champion": 8.0,
+          "challenger": -20.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -24.0,
-          "challenger": 12.0,
+          "champion": -15.0,
+          "challenger": 42.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -17.1,
-          "challenger": -6.7
+          "champion": -6.44,
+          "challenger": 17.37
         }
       }
     },
@@ -1196,8 +1196,8 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -10.0,
-          "challenger": 2.0,
+          "champion": -15.0,
+          "challenger": 4.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -1206,18 +1206,18 @@
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 6.0,
+          "champion": -6.0,
+          "challenger": 8.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -12.0,
-          "challenger": 48.0,
+          "champion": -18.0,
+          "challenger": 57.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -14.41,
-          "challenger": 50.51
+          "champion": -24.31,
+          "challenger": 61.33
         }
       }
     },
@@ -1226,31 +1226,31 @@
       "predicted_winner": "Pete Latzo",
       "actual_winner": "Mickey Walker",
       "correct": false,
-      "confidence": 81.3,
+      "confidence": 70.5,
       "factors": {
         "event_chart": {
-          "champion": -10.0,
-          "challenger": -3.0,
+          "champion": -15.0,
+          "challenger": -4.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -4.0,
-          "challenger": 0.5,
+          "challenger": 3.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 8.0,
-          "challenger": 10.0,
-          "dominant": "challenger"
-        },
-        "natal_temperament": {
-          "champion": 8.0,
+          "champion": 4.0,
           "challenger": 12.0,
           "dominant": "challenger"
         },
+        "natal_temperament": {
+          "champion": 30.0,
+          "challenger": 12.0,
+          "dominant": "champion"
+        },
         "combined": {
-          "champion": 11.56,
-          "challenger": 21.99
+          "champion": -6.0,
+          "challenger": 2.2
         }
       }
     },
@@ -1262,28 +1262,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 4.0,
-          "challenger": 2.0,
+          "champion": 8.0,
+          "challenger": 6.0,
           "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": 2.0,
-          "challenger": 1.0,
+          "champion": 4.0,
+          "challenger": 2.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -8.0,
-          "challenger": 6.0,
+          "champion": -12.0,
+          "challenger": 14.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 4.0,
-          "challenger": 20.0,
+          "champion": -6.0,
+          "challenger": 24.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -2.0,
-          "challenger": 27.0
+          "champion": -14.0,
+          "challenger": 40.5
         }
       }
     },
@@ -1295,61 +1295,61 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -2.0,
-          "challenger": 2.0,
+          "champion": 2.0,
+          "challenger": 6.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -3.5,
-          "challenger": 2.0,
+          "challenger": 4.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -16.0,
-          "challenger": -14.0,
+          "champion": -20.0,
+          "challenger": -18.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -40.0,
-          "challenger": 16.0,
+          "champion": -18.0,
+          "challenger": 21.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -58.35,
-          "challenger": 3.96
+          "champion": -40.63,
+          "challenger": 6.98
         }
       }
     },
     {
       "fight": "Jimmy Wilde vs Pancho Villa",
-      "predicted_winner": "Jimmy Wilde",
+      "predicted_winner": "Pancho Villa",
       "actual_winner": "Pancho Villa",
-      "correct": false,
-      "confidence": 99.0,
+      "correct": true,
+      "confidence": 81.2,
       "factors": {
         "event_chart": {
-          "champion": 3.0,
-          "challenger": 1.0,
-          "dominant": "champion"
+          "champion": 5.0,
+          "challenger": 6.0,
+          "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": 2.0,
-          "challenger": -2.5,
+          "challenger": -0.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -14.0,
-          "challenger": 10.0,
+          "champion": -18.0,
+          "challenger": 12.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 24.0,
-          "challenger": -24.0,
+          "champion": 9.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 12.0,
-          "challenger": -16.5
+          "champion": -7.0,
+          "challenger": 5.5
         }
       }
     },
@@ -1361,8 +1361,8 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -4.0,
-          "challenger": 3.0,
+          "champion": -5.0,
+          "challenger": 11.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -1371,18 +1371,18 @@
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 6.0,
+          "champion": 0.0,
+          "challenger": 8.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 40.0,
-          "challenger": 48.0,
+          "champion": 42.0,
+          "challenger": 57.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 32.26,
-          "challenger": 50.53
+          "champion": 36.16,
+          "challenger": 61.47
         }
       }
     },
@@ -1391,31 +1391,31 @@
       "predicted_winner": "Eugene Criqui",
       "actual_winner": "Johnny Dundee",
       "correct": false,
-      "confidence": 68.8,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -4.0,
-          "challenger": 16.0,
+          "champion": -3.0,
+          "challenger": 22.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 2.0,
-          "challenger": 2.0,
+          "champion": 4.0,
+          "challenger": 4.0,
           "dominant": "even"
         },
         "natal_alertness": {
-          "champion": -8.0,
-          "challenger": -14.0,
+          "champion": -12.0,
+          "challenger": -18.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 4.0,
-          "challenger": 16.0,
+          "champion": -6.0,
+          "challenger": 21.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -2.04,
-          "challenger": 4.24
+          "champion": -13.78,
+          "challenger": 7.3
         }
       }
     },
@@ -1424,31 +1424,31 @@
       "predicted_winner": "Jimmy Jones",
       "actual_winner": "Jimmy Jones",
       "correct": true,
-      "confidence": 96.2,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 5.0,
-          "challenger": 16.0,
+          "champion": 6.0,
+          "challenger": 22.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -5.5,
-          "challenger": 2.0,
-          "dominant": "challenger"
-        },
-        "natal_alertness": {
-          "champion": -16.0,
+          "champion": -7.0,
           "challenger": 4.0,
           "dominant": "challenger"
         },
+        "natal_alertness": {
+          "champion": -20.0,
+          "challenger": 8.0,
+          "dominant": "challenger"
+        },
         "natal_temperament": {
-          "champion": 36.0,
-          "challenger": 24.0,
+          "champion": 30.0,
+          "challenger": 9.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 14.31,
-          "challenger": 29.72
+          "champion": 3.06,
+          "challenger": 21.02
         }
       }
     },
@@ -1460,8 +1460,8 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -2.0,
-          "challenger": 17.0,
+          "champion": -4.0,
+          "challenger": 26.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -1470,18 +1470,18 @@
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 6.0,
+          "champion": 0.0,
+          "challenger": 8.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 40.0,
-          "challenger": 48.0,
+          "champion": 42.0,
+          "challenger": 57.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 32.3,
-          "challenger": 50.81
+          "champion": 36.18,
+          "challenger": 61.77
         }
       }
     },
@@ -1493,28 +1493,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 0.0,
-          "challenger": 9.0,
+          "champion": 1.0,
+          "challenger": 14.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -1.0,
+          "champion": 1.0,
           "challenger": -0.5,
-          "dominant": "challenger"
+          "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 0.0,
+          "champion": -6.0,
+          "challenger": 2.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": -12.0,
+          "champion": 18.0,
+          "challenger": -9.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 4.9,
-          "challenger": -12.07
+          "champion": 12.76,
+          "challenger": -7.07
         }
       }
     },
@@ -1526,28 +1526,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -8.0,
-          "challenger": 3.0,
+          "champion": -11.0,
+          "challenger": 9.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 0.0,
+          "champion": 3.5,
           "challenger": 0.5,
-          "dominant": "challenger"
+          "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 4.0,
-          "challenger": -2.0,
+          "champion": 8.0,
+          "challenger": 0.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -8.0,
-          "challenger": -20.0,
+          "champion": -6.0,
+          "challenger": -15.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": -4.08,
-          "challenger": -21.01
+          "champion": 5.17,
+          "challenger": -14.03
         }
       }
     },
@@ -1559,28 +1559,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 0.0,
-          "challenger": 11.0,
+          "champion": 3.0,
+          "challenger": 16.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 2.0,
-          "challenger": 1.0,
+          "champion": 4.0,
+          "challenger": 2.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -8.0,
-          "challenger": 6.0,
+          "champion": -12.0,
+          "challenger": 14.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 4.0,
-          "challenger": 20.0,
+          "champion": -6.0,
+          "challenger": 24.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -1.96,
-          "challenger": 26.68
+          "champion": -13.66,
+          "challenger": 40.01
         }
       }
     },
@@ -1592,28 +1592,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 8.0,
-          "challenger": 0.0,
+          "champion": 13.0,
+          "challenger": -3.0,
           "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": -1.0,
+          "champion": 1.0,
           "challenger": -0.5,
-          "dominant": "challenger"
+          "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 0.0,
+          "champion": -6.0,
+          "challenger": 2.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": -12.0,
+          "champion": 18.0,
+          "challenger": -9.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 5.06,
-          "challenger": -12.25
+          "champion": 13.0,
+          "challenger": -7.41
         }
       }
     },
@@ -1625,61 +1625,61 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 11.0,
-          "challenger": 9.0,
+          "champion": 19.0,
+          "challenger": 15.0,
           "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": 0.0,
-          "challenger": 5.5,
+          "champion": 3.5,
+          "challenger": 9.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 4.0,
-          "challenger": -8.0,
+          "champion": 8.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -8.0,
-          "challenger": 32.0,
+          "champion": -6.0,
+          "challenger": 33.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -4.0,
-          "challenger": 29.5
+          "champion": 5.77,
+          "challenger": 35.58
         }
       }
     },
     {
       "fight": "Johnny Dundee vs Steve Sullivan",
-      "predicted_winner": "Johnny Dundee",
+      "predicted_winner": "Steve Sullivan",
       "actual_winner": "Steve Sullivan",
-      "correct": false,
-      "confidence": 99.0,
+      "correct": true,
+      "confidence": 66.7,
       "factors": {
         "event_chart": {
-          "champion": 1.0,
-          "challenger": 11.0,
+          "champion": 7.0,
+          "challenger": 16.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 2.0,
-          "challenger": 0.0,
+          "champion": 4.0,
+          "challenger": -1.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -8.0,
-          "challenger": 4.0,
+          "champion": -12.0,
+          "challenger": 8.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 4.0,
-          "challenger": -24.0,
+          "champion": -6.0,
+          "challenger": -15.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": -1.94,
-          "challenger": -19.38
+          "champion": -13.58,
+          "challenger": -8.01
         }
       }
     },
@@ -1691,28 +1691,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -3.0,
-          "challenger": 1.0,
+          "champion": -6.0,
+          "challenger": 8.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -0.5,
-          "challenger": 0.0,
-          "dominant": "challenger"
+          "challenger": -1.5,
+          "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 4.0,
-          "challenger": 4.0,
-          "dominant": "even"
+          "champion": 6.0,
+          "challenger": 8.0,
+          "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -68.0,
-          "challenger": -24.0,
+          "champion": -48.0,
+          "challenger": -15.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -63.27,
-          "challenger": -19.58
+          "champion": -41.77,
+          "challenger": -8.17
         }
       }
     },
@@ -1724,28 +1724,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -17.0,
-          "challenger": 9.0,
+          "champion": -19.0,
+          "challenger": 15.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -0.5,
-          "challenger": 0.0,
-          "dominant": "challenger"
+          "challenger": -1.5,
+          "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 4.0,
-          "challenger": 4.0,
-          "dominant": "even"
+          "champion": 6.0,
+          "challenger": 8.0,
+          "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -68.0,
-          "challenger": -24.0,
+          "champion": -48.0,
+          "challenger": -15.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -63.55,
-          "challenger": -19.42
+          "champion": -42.03,
+          "challenger": -8.03
         }
       }
     },
@@ -1757,28 +1757,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -18.0,
-          "challenger": 12.0,
+          "champion": -21.0,
+          "challenger": 22.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 0.0,
+          "champion": 3.5,
           "challenger": -4.0,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 4.0,
-          "challenger": -2.0,
+          "champion": 8.0,
+          "challenger": 0.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -8.0,
-          "challenger": 32.0,
+          "champion": -6.0,
+          "challenger": 48.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -4.28,
-          "challenger": 25.72
+          "champion": 4.97,
+          "challenger": 43.56
         }
       }
     },
@@ -1790,8 +1790,8 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -19.0,
-          "challenger": -2.0,
+          "champion": -25.0,
+          "challenger": 2.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -1800,51 +1800,51 @@
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 8.0,
-          "challenger": 6.0,
-          "dominant": "champion"
+          "champion": 4.0,
+          "challenger": 8.0,
+          "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": 48.0,
+          "champion": 30.0,
+          "challenger": 57.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 11.38,
-          "challenger": 50.43
+          "champion": 28.9,
+          "challenger": 61.29
         }
       }
     },
     {
       "fight": "Charlie Phil Rosenberg vs Eddie Martin",
-      "predicted_winner": "Charlie Phil Rosenberg",
+      "predicted_winner": "Eddie Martin",
       "actual_winner": "Charlie Phil Rosenberg",
-      "correct": true,
-      "confidence": 66.9,
+      "correct": false,
+      "confidence": 92.1,
       "factors": {
         "event_chart": {
           "champion": -4.0,
-          "challenger": 8.0,
+          "challenger": 11.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -2.0,
+          "champion": 0.0,
           "challenger": -4.0,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": -2.0,
+          "champion": 0.0,
+          "challenger": 0.0,
           "dominant": "even"
         },
         "natal_temperament": {
-          "champion": 36.0,
-          "challenger": 32.0,
-          "dominant": "champion"
+          "champion": 30.0,
+          "challenger": 48.0,
+          "dominant": "challenger"
         },
         "combined": {
-          "champion": 31.28,
-          "challenger": 25.64
+          "champion": 29.32,
+          "challenger": 43.34
         }
       }
     },
@@ -1857,27 +1857,27 @@
       "factors": {
         "event_chart": {
           "champion": -4.0,
-          "challenger": 11.0,
+          "challenger": 18.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -0.5,
-          "challenger": 0.0,
-          "dominant": "challenger"
+          "challenger": -1.5,
+          "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 4.0,
-          "challenger": 4.0,
-          "dominant": "even"
+          "champion": 6.0,
+          "challenger": 8.0,
+          "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -68.0,
-          "challenger": -24.0,
+          "champion": -48.0,
+          "challenger": -15.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -63.29,
-          "challenger": -19.38
+          "champion": -41.73,
+          "challenger": -7.97
         }
       }
     },
@@ -1889,8 +1889,8 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -7.0,
-          "challenger": 1.0,
+          "champion": -9.0,
+          "challenger": 3.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -1899,18 +1899,18 @@
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 6.0,
-          "challenger": 6.0,
-          "dominant": "even"
+          "champion": 14.0,
+          "challenger": 8.0,
+          "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -8.0,
-          "challenger": 48.0,
+          "champion": -3.0,
+          "challenger": 57.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -6.02,
-          "challenger": 50.49
+          "champion": 6.68,
+          "challenger": 61.31
         }
       }
     },
@@ -1919,31 +1919,31 @@
       "predicted_winner": "Mickey Walker",
       "actual_winner": "Harry Greb",
       "correct": false,
-      "confidence": 70.9,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -7.0,
-          "challenger": -1.0,
+          "champion": -9.0,
+          "challenger": -5.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -1.0,
+          "champion": 1.0,
           "challenger": -4.0,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 8.0,
+          "champion": -6.0,
+          "challenger": 4.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": 8.0,
-          "dominant": "even"
+          "champion": 18.0,
+          "challenger": 30.0,
+          "dominant": "challenger"
         },
         "combined": {
-          "champion": 4.76,
-          "challenger": 11.74
+          "champion": 12.56,
+          "challenger": 29.3
         }
       }
     },
@@ -1955,28 +1955,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 2.0,
-          "challenger": 13.0,
+          "champion": 1.0,
+          "challenger": 29.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -8.5,
+          "champion": -10.0,
           "challenger": -2.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -10.0,
-          "challenger": -10.0,
+          "champion": -6.0,
+          "challenger": -6.0,
           "dominant": "even"
         },
         "natal_temperament": {
-          "champion": 4.0,
-          "challenger": 40.0,
+          "champion": 6.0,
+          "challenger": 72.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -14.17,
-          "challenger": 27.21
+          "champion": -9.78,
+          "challenger": 62.81
         }
       }
     },
@@ -1985,64 +1985,64 @@
       "predicted_winner": "Jimmy Slattery",
       "actual_winner": "Paul Berlenbach",
       "correct": false,
-      "confidence": 88.9,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 8.0,
-          "challenger": 20.0,
+          "champion": 13.0,
+          "challenger": 33.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -4.0,
-          "challenger": -3.0,
-          "dominant": "challenger"
+          "challenger": -4.5,
+          "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 6.0,
-          "challenger": 18.0,
+          "champion": 14.0,
+          "challenger": 34.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -8.0,
-          "challenger": -8.0,
+          "champion": -3.0,
+          "challenger": -3.0,
           "dominant": "even"
         },
         "combined": {
-          "champion": -5.72,
-          "challenger": 7.26
+          "champion": 7.12,
+          "challenger": 26.63
         }
       }
     },
     {
       "fight": "Mickey Walker vs Dave Shade",
-      "predicted_winner": "Dave Shade",
+      "predicted_winner": "Mickey Walker",
       "actual_winner": "Mickey Walker",
-      "correct": false,
-      "confidence": 65.2,
+      "correct": true,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 0.0,
-          "challenger": 7.0,
+          "champion": 1.0,
+          "challenger": 13.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -4.0,
-          "challenger": -5.5,
+          "challenger": -7.0,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 8.0,
-          "challenger": -16.0,
+          "champion": 4.0,
+          "challenger": -20.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": 36.0,
-          "dominant": "challenger"
+          "champion": 30.0,
+          "challenger": 30.0,
+          "dominant": "even"
         },
         "combined": {
-          "champion": 2.4,
-          "challenger": 8.5
+          "champion": 29.42,
+          "challenger": 3.2
         }
       }
     },
@@ -2054,28 +2054,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -6.0,
-          "challenger": 2.0,
+          "champion": 0.0,
+          "challenger": 4.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -3.0,
+          "champion": -1.5,
           "challenger": -0.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 4.0,
+          "champion": 0.0,
+          "challenger": 6.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 44.0,
-          "challenger": -68.0,
+          "champion": 54.0,
+          "challenger": -48.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 38.1,
-          "challenger": -63.17
+          "champion": 51.45,
+          "challenger": -41.57
         }
       }
     },
@@ -2087,28 +2087,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -16.0,
+          "champion": -15.0,
           "challenger": 2.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 2.0,
-          "challenger": 2.5,
+          "champion": 4.0,
+          "challenger": 6.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": -2.0,
-          "dominant": "even"
+          "champion": -6.0,
+          "challenger": 0.0,
+          "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -32.0,
-          "challenger": 44.0,
+          "champion": -33.0,
+          "challenger": 54.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -31.68,
-          "challenger": 43.65
+          "champion": -34.6,
+          "challenger": 58.84
         }
       }
     },
@@ -2120,7 +2120,7 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -17.0,
+          "champion": -19.0,
           "challenger": 2.0,
           "dominant": "challenger"
         },
@@ -2130,18 +2130,18 @@
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 6.0,
-          "challenger": -4.0,
+          "champion": 14.0,
+          "challenger": -8.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -8.0,
-          "challenger": 40.0,
+          "champion": -3.0,
+          "challenger": 66.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -6.22,
-          "challenger": 30.42
+          "champion": 6.48,
+          "challenger": 51.98
         }
       }
     },
@@ -2153,28 +2153,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -2.0,
-          "challenger": -2.0,
-          "dominant": "even"
+          "champion": -3.0,
+          "challenger": -1.0,
+          "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -1.0,
-          "challenger": -1.0,
+          "champion": 1.0,
+          "challenger": 1.0,
           "dominant": "even"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": -14.0,
+          "champion": -6.0,
+          "challenger": -18.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": -16.0,
+          "champion": 18.0,
+          "challenger": -21.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 5.0,
-          "challenger": -31.0
+          "champion": 13.0,
+          "challenger": -38.0
         }
       }
     },
@@ -2183,31 +2183,31 @@
       "predicted_winner": "Pete Latzo",
       "actual_winner": "Pete Latzo",
       "correct": true,
-      "confidence": 81.4,
+      "confidence": 74.5,
       "factors": {
         "event_chart": {
-          "champion": 4.0,
-          "challenger": 13.0,
+          "champion": 8.0,
+          "challenger": 21.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -4.0,
-          "challenger": 0.5,
+          "challenger": 3.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 8.0,
-          "challenger": 10.0,
-          "dominant": "challenger"
-        },
-        "natal_temperament": {
-          "champion": 8.0,
+          "champion": 4.0,
           "challenger": 12.0,
           "dominant": "challenger"
         },
+        "natal_temperament": {
+          "champion": 30.0,
+          "challenger": 12.0,
+          "dominant": "champion"
+        },
         "combined": {
-          "champion": 11.84,
-          "challenger": 22.31
+          "champion": 12.4,
+          "challenger": 22.2
         }
       }
     },
@@ -2219,28 +2219,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 13.0,
-          "challenger": 6.0,
+          "champion": 23.0,
+          "challenger": 13.0,
           "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": -3.0,
-          "challenger": 0.0,
-          "dominant": "challenger"
+          "champion": -1.5,
+          "challenger": -1.5,
+          "dominant": "even"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 4.0,
+          "champion": 0.0,
+          "challenger": 8.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 44.0,
-          "challenger": -24.0,
+          "champion": 54.0,
+          "challenger": -15.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 38.48,
-          "challenger": -19.48
+          "champion": 51.91,
+          "challenger": -8.07
         }
       }
     },
@@ -2252,28 +2252,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 3.0,
-          "challenger": 4.0,
-          "dominant": "challenger"
+          "champion": 8.0,
+          "challenger": 3.0,
+          "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": 2.0,
-          "challenger": 2.5,
-          "dominant": "challenger"
+          "champion": 4.0,
+          "challenger": 4.0,
+          "dominant": "even"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": -4.0,
+          "champion": -6.0,
+          "challenger": -8.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -32.0,
-          "challenger": 56.0,
+          "champion": -33.0,
+          "challenger": 75.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -32.0,
-          "challenger": 54.5
+          "champion": -34.14,
+          "challenger": 69.64
         }
       }
     },
@@ -2285,8 +2285,8 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 4.0,
-          "challenger": 16.0,
+          "champion": 8.0,
+          "challenger": 19.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -2295,18 +2295,18 @@
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -4.0,
-          "challenger": 6.0,
+          "champion": -8.0,
+          "challenger": 14.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 40.0,
-          "challenger": -8.0,
+          "champion": 66.0,
+          "challenger": -3.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 30.46,
-          "challenger": -5.56
+          "champion": 52.1,
+          "challenger": 7.24
         }
       }
     },
@@ -2319,27 +2319,27 @@
       "factors": {
         "event_chart": {
           "champion": -2.0,
-          "challenger": 12.0,
+          "challenger": 25.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -1.0,
-          "challenger": -1.0,
+          "champion": 1.0,
+          "challenger": 1.0,
           "dominant": "even"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": -14.0,
+          "champion": -6.0,
+          "challenger": -18.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": -16.0,
+          "champion": 18.0,
+          "challenger": -21.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 4.86,
-          "challenger": -30.14
+          "champion": 12.7,
+          "challenger": -36.74
         }
       }
     },
@@ -2351,28 +2351,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 2.0,
-          "challenger": 2.0,
-          "dominant": "even"
+          "champion": 4.0,
+          "challenger": 6.0,
+          "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -5.5,
-          "challenger": 4.0,
+          "champion": -7.0,
+          "challenger": 5.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 10.0,
-          "challenger": -10.0,
+          "champion": 12.0,
+          "challenger": -14.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 44.0,
-          "challenger": 4.0,
+          "champion": 66.0,
+          "challenger": 3.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 48.5,
-          "challenger": -2.0
+          "champion": 71.0,
+          "challenger": -5.5
         }
       }
     },
@@ -2384,28 +2384,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 1.0,
-          "challenger": -3.0,
-          "dominant": "champion"
+          "champion": 0.0,
+          "challenger": 1.0,
+          "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 2.0,
+          "champion": 4.0,
           "challenger": 0.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 12.0,
-          "challenger": 10.0,
+          "champion": 14.0,
+          "challenger": 6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 32.0,
-          "challenger": 0.0,
+          "champion": 24.0,
+          "challenger": 3.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 45.1,
-          "challenger": 10.23
+          "champion": 42.0,
+          "challenger": 9.5
         }
       }
     },
@@ -2417,28 +2417,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 2.0,
-          "challenger": -2.0,
+          "champion": 6.0,
+          "challenger": 1.0,
           "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": -3.0,
-          "challenger": 2.0,
+          "champion": -1.5,
+          "challenger": 4.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": -8.0,
+          "champion": 0.0,
+          "challenger": -12.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 44.0,
-          "challenger": 4.0,
+          "champion": 54.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 38.26,
-          "challenger": -2.0
+          "champion": 51.57,
+          "challenger": -13.7
         }
       }
     },
@@ -2450,28 +2450,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -21.0,
+          "champion": -24.0,
           "challenger": -2.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -4.0,
-          "challenger": -1.0,
+          "challenger": 1.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 8.0,
-          "challenger": -14.0,
+          "champion": 4.0,
+          "challenger": -18.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": -16.0,
+          "champion": 30.0,
+          "challenger": -21.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 11.34,
-          "challenger": -30.42
+          "champion": 28.92,
+          "challenger": -37.28
         }
       }
     },
@@ -2480,64 +2480,64 @@
       "predicted_winner": "Bushy Graham",
       "actual_winner": "Charlie Phil Rosenberg",
       "correct": false,
-      "confidence": 69.7,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 7.0,
-          "challenger": 17.0,
+          "champion": 11.0,
+          "challenger": 29.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -2.0,
-          "challenger": -7.5,
+          "champion": 0.0,
+          "challenger": -9.0,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 14.0,
+          "champion": 0.0,
+          "challenger": 18.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 36.0,
-          "challenger": 32.0,
-          "dominant": "champion"
+          "champion": 30.0,
+          "challenger": 57.0,
+          "dominant": "challenger"
         },
         "combined": {
-          "champion": 31.5,
-          "challenger": 38.07
+          "champion": 29.62,
+          "challenger": 65.26
         }
       }
     },
     {
       "fight": "Joe Dundee vs Pete Latzo",
-      "predicted_winner": "Pete Latzo",
+      "predicted_winner": "Joe Dundee",
       "actual_winner": "Joe Dundee",
-      "correct": false,
+      "correct": true,
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 10.0,
-          "challenger": -12.0,
+          "champion": 14.0,
+          "challenger": -11.0,
           "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": -7.5,
-          "challenger": 0.5,
+          "champion": -7.0,
+          "challenger": 3.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -4.0,
-          "challenger": 10.0,
+          "champion": -8.0,
+          "challenger": 12.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 12.0,
+          "champion": 42.0,
           "challenger": 12.0,
-          "dominant": "even"
+          "dominant": "champion"
         },
         "combined": {
-          "champion": 0.69,
-          "challenger": 21.81
+          "champion": 16.6,
+          "challenger": -3.4
         }
       }
     },
@@ -2546,31 +2546,31 @@
       "predicted_winner": "Bud Taylor",
       "actual_winner": "Bud Taylor",
       "correct": true,
-      "confidence": 75.3,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 9.0,
-          "challenger": -10.0,
+          "champion": 12.0,
+          "challenger": -13.0,
           "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": -1.5,
-          "challenger": -4.5,
+          "champion": -3.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -4.0,
-          "challenger": 8.0,
+          "champion": -8.0,
+          "challenger": 4.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": 8.0,
-          "dominant": "even"
+          "champion": 18.0,
+          "challenger": 30.0,
+          "dominant": "challenger"
         },
         "combined": {
-          "champion": 2.63,
-          "challenger": 11.07
+          "champion": 7.1,
+          "challenger": 27.18
         }
       }
     },
@@ -2579,31 +2579,31 @@
       "predicted_winner": "Maxie Rosenbloom",
       "actual_winner": "Jimmy Slattery",
       "correct": false,
-      "confidence": 99.0,
+      "confidence": 95.4,
       "factors": {
         "event_chart": {
-          "champion": 4.0,
-          "challenger": 18.0,
+          "champion": 2.0,
+          "challenger": 30.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 0.0,
-          "challenger": -3.0,
+          "champion": 0.5,
+          "challenger": -4.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 4.0,
-          "challenger": 18.0,
+          "champion": 6.0,
+          "challenger": 34.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
           "champion": 36.0,
-          "challenger": -8.0,
+          "challenger": -3.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 39.28,
-          "challenger": 7.22
+          "champion": 41.69,
+          "challenger": 26.57
         }
       }
     },
@@ -2615,28 +2615,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -7.0,
-          "challenger": 2.0,
+          "champion": -2.0,
+          "challenger": 7.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 2.0,
+          "champion": 4.0,
           "challenger": 0.5,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 12.0,
-          "challenger": 10.0,
+          "champion": 14.0,
+          "challenger": 6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 32.0,
-          "challenger": 0.0,
+          "champion": 24.0,
+          "challenger": 3.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 44.94,
-          "challenger": 10.33
+          "champion": 41.12,
+          "challenger": 9.45
         }
       }
     },
@@ -2648,8 +2648,8 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -12.0,
-          "challenger": -6.0,
+          "champion": -14.0,
+          "challenger": 0.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -2658,18 +2658,18 @@
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 6.0,
+          "champion": 0.0,
+          "challenger": 8.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 40.0,
-          "challenger": 48.0,
+          "champion": 42.0,
+          "challenger": 57.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 32.1,
-          "challenger": 50.35
+          "champion": 35.98,
+          "challenger": 61.25
         }
       }
     },
@@ -2678,31 +2678,31 @@
       "predicted_winner": "Tony Canzoneri",
       "actual_winner": "Tony Canzoneri",
       "correct": true,
-      "confidence": 62.0,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -17.0,
-          "challenger": 3.0,
+          "champion": -21.0,
+          "challenger": 8.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -1.5,
-          "challenger": 2.0,
+          "champion": -3.0,
+          "challenger": 4.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -4.0,
-          "challenger": -8.0,
+          "champion": -8.0,
+          "challenger": -12.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": 4.0,
+          "champion": 18.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 2.11,
-          "challenger": -1.9
+          "champion": 6.44,
+          "challenger": -13.56
         }
       }
     },
@@ -2711,31 +2711,31 @@
       "predicted_winner": "Tommy Loughran",
       "actual_winner": "Tommy Loughran",
       "correct": true,
-      "confidence": 99.0,
+      "confidence": 77.8,
       "factors": {
         "event_chart": {
-          "champion": -27.0,
-          "challenger": 9.0,
+          "champion": -34.0,
+          "challenger": 17.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -5.0,
-          "challenger": -3.0,
+          "challenger": -4.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 18.0,
+          "champion": 0.0,
+          "challenger": 34.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 40.0,
-          "challenger": -8.0,
+          "champion": 42.0,
+          "challenger": -3.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 31.8,
-          "challenger": 7.04
+          "champion": 35.58,
+          "challenger": 26.31
         }
       }
     },
@@ -2747,28 +2747,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 14.0,
-          "challenger": -2.0,
+          "champion": 15.0,
+          "challenger": 0.0,
           "dominant": "champion"
         },
         "natal_vitality": {
           "champion": -2.5,
-          "challenger": 4.0,
+          "challenger": 7.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -10.0,
-          "challenger": -8.0,
-          "dominant": "challenger"
+          "champion": -6.0,
+          "challenger": -6.0,
+          "dominant": "even"
         },
         "natal_temperament": {
-          "champion": 40.0,
-          "challenger": -16.0,
+          "champion": 72.0,
+          "challenger": -12.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 27.23,
-          "challenger": -19.64
+          "champion": 62.53,
+          "challenger": -10.29
         }
       }
     },
@@ -2780,28 +2780,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 7.0,
-          "challenger": 3.0,
+          "champion": 5.0,
+          "challenger": 2.0,
           "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": -1.5,
+          "champion": -3.0,
           "challenger": 1.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -4.0,
-          "challenger": 6.0,
+          "champion": -8.0,
+          "challenger": 14.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": 40.0,
+          "champion": 18.0,
+          "challenger": 66.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 2.59,
-          "challenger": 46.12
+          "champion": 7.0,
+          "challenger": 81.0
         }
       }
     },
@@ -2814,27 +2814,27 @@
       "factors": {
         "event_chart": {
           "champion": 5.0,
-          "challenger": 23.0,
+          "challenger": 39.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 1.0,
-          "challenger": 2.5,
+          "champion": 2.5,
+          "challenger": 4.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -8.0,
-          "challenger": -4.0,
-          "dominant": "challenger"
+          "champion": -6.0,
+          "challenger": -8.0,
+          "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 4.0,
-          "challenger": 56.0,
+          "champion": 3.0,
+          "challenger": 75.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -2.84,
-          "challenger": 53.87
+          "champion": -0.39,
+          "challenger": 70.36
         }
       }
     },
@@ -2843,31 +2843,31 @@
       "predicted_winner": "Bushy Graham",
       "actual_winner": "Bushy Graham",
       "correct": true,
-      "confidence": 65.6,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
           "champion": 5.0,
-          "challenger": 14.0,
+          "challenger": 26.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -7.5,
+          "champion": -9.0,
           "challenger": -5.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 14.0,
-          "challenger": 10.0,
+          "champion": 18.0,
+          "challenger": 12.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 32.0,
-          "challenger": 28.0,
+          "champion": 57.0,
+          "challenger": 36.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 37.83,
-          "challenger": 32.62
+          "champion": 64.78,
+          "challenger": 42.66
         }
       }
     },
@@ -2876,31 +2876,31 @@
       "predicted_winner": "Tod Morgan",
       "actual_winner": "Tod Morgan",
       "correct": true,
-      "confidence": 87.3,
+      "confidence": 73.1,
       "factors": {
         "event_chart": {
           "champion": 5.0,
-          "challenger": 21.0,
+          "challenger": 36.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -3.0,
+          "champion": -1.5,
           "challenger": -4.0,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": -2.0,
+          "champion": 0.0,
+          "challenger": 0.0,
           "dominant": "even"
         },
         "natal_temperament": {
-          "champion": 44.0,
-          "challenger": 32.0,
+          "champion": 54.0,
+          "challenger": 48.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 38.32,
-          "challenger": 25.9
+          "champion": 51.55,
+          "challenger": 43.84
         }
       }
     },
@@ -2909,31 +2909,31 @@
       "predicted_winner": "Tommy Loughran",
       "actual_winner": "Tommy Loughran",
       "correct": true,
-      "confidence": 80.3,
+      "confidence": 78.7,
       "factors": {
         "event_chart": {
-          "champion": 3.0,
-          "challenger": 12.0,
+          "champion": 5.0,
+          "challenger": 17.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -5.0,
-          "challenger": 0.5,
+          "challenger": 3.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 10.0,
+          "champion": 0.0,
+          "challenger": 12.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 40.0,
+          "champion": 42.0,
           "challenger": 12.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 32.4,
-          "challenger": 22.29
+          "champion": 36.36,
+          "challenger": 26.8
         }
       }
     },
@@ -2942,31 +2942,31 @@
       "predicted_winner": "Tommy Loughran",
       "actual_winner": "Tommy Loughran",
       "correct": true,
-      "confidence": 80.0,
+      "confidence": 78.1,
       "factors": {
         "event_chart": {
           "champion": -2.0,
-          "challenger": 13.0,
+          "challenger": 20.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -5.0,
-          "challenger": 0.5,
+          "challenger": 3.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": 10.0,
+          "champion": 0.0,
+          "challenger": 12.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 40.0,
+          "champion": 42.0,
           "challenger": 12.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 32.3,
-          "challenger": 22.31
+          "champion": 36.22,
+          "challenger": 26.86
         }
       }
     },
@@ -2975,7 +2975,7 @@
       "predicted_winner": "Tod Morgan",
       "actual_winner": "Tod Morgan",
       "correct": true,
-      "confidence": 87.6,
+      "confidence": 74.3,
       "factors": {
         "event_chart": {
           "champion": -2.0,
@@ -2983,23 +2983,23 @@
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -3.0,
+          "champion": -1.5,
           "challenger": -4.0,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": -2.0,
+          "champion": 0.0,
+          "challenger": 0.0,
           "dominant": "even"
         },
         "natal_temperament": {
-          "champion": 44.0,
-          "challenger": 32.0,
+          "champion": 54.0,
+          "challenger": 48.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 38.18,
-          "challenger": 25.66
+          "champion": 51.41,
+          "challenger": 43.3
         }
       }
     },
@@ -3011,28 +3011,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 4.0,
-          "challenger": 3.0,
-          "dominant": "champion"
+          "champion": 8.0,
+          "challenger": 12.0,
+          "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -1.5,
+          "champion": -3.0,
           "challenger": 0.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -4.0,
-          "challenger": -2.0,
+          "champion": -8.0,
+          "challenger": 0.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": 52.0,
+          "champion": 18.0,
+          "challenger": 63.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 2.5,
-          "challenger": 50.5
+          "champion": 7.02,
+          "challenger": 62.47
         }
       }
     },
@@ -3045,60 +3045,60 @@
       "factors": {
         "event_chart": {
           "champion": -7.0,
-          "challenger": -3.0,
+          "challenger": 3.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -2.5,
-          "challenger": 4.0,
+          "challenger": 7.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -10.0,
-          "challenger": -8.0,
-          "dominant": "challenger"
+          "champion": -6.0,
+          "challenger": -6.0,
+          "dominant": "even"
         },
         "natal_temperament": {
-          "champion": 40.0,
-          "challenger": -16.0,
+          "champion": 72.0,
+          "challenger": -12.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 26.81,
-          "challenger": -19.66
+          "champion": 62.09,
+          "challenger": -10.23
         }
       }
     },
     {
       "fight": "Emile Pladner vs Frankie Genaro",
-      "predicted_winner": "Emile Pladner",
+      "predicted_winner": "Frankie Genaro",
       "actual_winner": "Emile Pladner",
-      "correct": true,
-      "confidence": 65.8,
+      "correct": false,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": 2.0,
+          "champion": 5.0,
           "challenger": -6.0,
           "dominant": "champion"
         },
         "natal_vitality": {
-          "champion": -3.0,
+          "champion": -4.5,
           "challenger": -2.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 10.0,
-          "challenger": -10.0,
+          "champion": 12.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 20.0,
-          "challenger": 40.0,
+          "champion": 27.0,
+          "challenger": 72.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 7.0,
-          "challenger": 0.7
+          "champion": 33.91,
+          "challenger": 62.11
         }
       }
     },
@@ -3110,28 +3110,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -1.0,
-          "challenger": 3.0,
+          "champion": 0.0,
+          "challenger": 6.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": 4.0,
+          "champion": 7.5,
           "challenger": -5.0,
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": -8.0,
-          "challenger": 10.0,
+          "champion": -6.0,
+          "challenger": 12.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": -16.0,
-          "challenger": 28.0,
+          "champion": -12.0,
+          "challenger": 36.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": -19.62,
-          "challenger": 32.4
+          "champion": -10.29,
+          "challenger": 42.26
         }
       }
     },
@@ -3140,31 +3140,31 @@
       "predicted_winner": "Jackie Fields",
       "actual_winner": "Jackie Fields",
       "correct": true,
-      "confidence": 82.8,
+      "confidence": 63.8,
       "factors": {
         "event_chart": {
-          "champion": 2.0,
-          "challenger": 9.0,
+          "champion": 9.0,
+          "challenger": 16.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -4.0,
-          "challenger": 1.0,
+          "champion": -3.5,
+          "challenger": 3.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 18.0,
-          "challenger": 4.0,
+          "champion": 34.0,
+          "challenger": 6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": -8.0,
-          "challenger": 12.0,
+          "champion": -3.0,
+          "challenger": 18.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 5.92,
-          "challenger": 16.84
+          "champion": 12.7,
+          "challenger": 18.2
         }
       }
     },
@@ -3173,11 +3173,11 @@
       "predicted_winner": "Tommy Loughran",
       "actual_winner": "Tommy Loughran",
       "correct": true,
-      "confidence": 99.0,
+      "confidence": 71.9,
       "factors": {
         "event_chart": {
-          "champion": -10.0,
-          "challenger": 9.0,
+          "champion": -6.0,
+          "challenger": 16.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
@@ -3186,18 +3186,18 @@
           "dominant": "champion"
         },
         "natal_alertness": {
-          "champion": 8.0,
-          "challenger": -2.0,
+          "champion": 4.0,
+          "challenger": 0.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 8.0,
-          "challenger": 40.0,
+          "champion": 30.0,
+          "challenger": 42.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 11.56,
-          "challenger": 32.52
+          "champion": 29.28,
+          "challenger": 36.58
         }
       }
     },
@@ -3206,31 +3206,31 @@
       "predicted_winner": "Frankie Genaro",
       "actual_winner": "Frankie Genaro",
       "correct": true,
-      "confidence": 96.2,
+      "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -5.0,
-          "challenger": 18.0,
+          "champion": -3.0,
+          "challenger": 27.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -3.0,
+          "champion": -4.5,
           "challenger": -2.5,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": 10.0,
-          "challenger": -10.0,
+          "champion": 12.0,
+          "challenger": -6.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 20.0,
-          "challenger": 40.0,
+          "champion": 27.0,
+          "challenger": 72.0,
           "dominant": "challenger"
         },
         "combined": {
-          "champion": 1.4,
-          "challenger": 19.9
+          "champion": 33.75,
+          "challenger": 62.77
         }
       }
     },
@@ -3242,28 +3242,28 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -9.0,
-          "challenger": 5.0,
+          "champion": -8.0,
+          "challenger": 7.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
           "champion": -5.0,
-          "challenger": 2.0,
+          "challenger": 4.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -2.0,
-          "challenger": -4.0,
+          "champion": 0.0,
+          "challenger": -8.0,
           "dominant": "champion"
         },
         "natal_temperament": {
-          "champion": 40.0,
-          "challenger": 16.0,
+          "champion": 42.0,
+          "challenger": 24.0,
           "dominant": "champion"
         },
         "combined": {
-          "champion": 32.16,
-          "challenger": 13.82
+          "champion": 36.1,
+          "challenger": 19.74
         }
       }
     },
@@ -3275,33 +3275,33 @@
       "confidence": 99.0,
       "factors": {
         "event_chart": {
-          "champion": -19.0,
-          "challenger": 6.0,
+          "champion": -23.0,
+          "challenger": 11.0,
           "dominant": "challenger"
         },
         "natal_vitality": {
-          "champion": -7.5,
-          "challenger": 1.0,
+          "champion": -7.0,
+          "challenger": 3.0,
           "dominant": "challenger"
         },
         "natal_alertness": {
-          "champion": -4.0,
-          "challenger": 4.0,
+          "champion": -8.0,
+          "challenger": 6.0,
           "dominant": "challenger"
         },
         "natal_temperament": {
-          "champion": 12.0,
-          "challenger": 12.0,
-          "dominant": "even"
+          "champion": 42.0,
+          "challenger": 18.0,
+          "dominant": "champion"
         },
         "combined": {
-          "champion": 0.11,
-          "challenger": 16.78
+          "champion": -13.0,
+          "challenger": 14.2
         }
       }
     }
   ],
-  "correct": 61,
+  "correct": 62,
   "total": 100,
-  "accuracy": 61.0
+  "accuracy": 62.0
 }
