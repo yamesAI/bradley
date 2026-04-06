@@ -10,31 +10,33 @@ Weighting logic (tunable):
 
 import json
 
-from ephemeris import get_chart_dict
+from ephemeris import get_chart_dict, get_horary_house_cusps
 from event_analysis import analyze_event_chart
-from natal_analysis import compare_natal_fighters
+from natal_analysis import compare_natal_fighters, compare_natal_in_horary, analyze_natal_in_horary
+from dignities import dignity_score
+from natal_analysis import house_score
 
 DEFAULT_WEIGHTS = {
-    # Dignity scores (tuned: domicile strength dominates)
+    # Dignity scores — tuned for horary-placement methodology
     "domicile": 8,
-    "exaltation": 2,
-    "detriment": -4,
-    "fall": -2,
+    "exaltation": 5,
+    "detriment": -3,
+    "fall": -3,
     "neutral": 0,
-    # House scores (tuned: angular strong, cadent very negative)
-    "angular": 4,
-    "succedent": -1,
-    "cadent": -4,
-    # Factor weights: temperament (Venus/Jupiter/Saturn) dominates
+    # House scores — angular strongly positive, succedent/cadent negative
+    "angular": 5,
+    "succedent": -2,
+    "cadent": -2,
+    # Factor weights — temperament (Venus/Jupiter/Saturn) dominates; alertness minor
     "vitality_w": 0.0,
-    "alertness_w": 0.0,
+    "alertness_w": 0.25,
     "temperament_w": 4.0,
-    # Combination: almost entirely natal, minimal event chart
-    "event_weight": 0.05,
+    # Combination: equal horary-event and natal-in-horary blend
+    "event_weight": 0.5,
     # Dynamic adjustment thresholds
-    "natal_trust_threshold": 3.0,
-    "event_trust_threshold": 1.0,
-    "natal_boost_weight": 0.9,
+    "natal_trust_threshold": 2.0,
+    "event_trust_threshold": 5.0,
+    "natal_boost_weight": 1.0,
     "event_boost_weight": 0.8,
 }
 
@@ -129,15 +131,15 @@ def analyze_fight(fight: dict, weights: dict = None) -> dict:
     chall = fight["challenger"]
     clat, clon = fight["location"]
 
-    champ_chart = get_chart_dict(
-        champ["birth_datetime"], champ["birth_location"][0], champ["birth_location"][1]
-    )
-    chall_chart = get_chart_dict(
-        chall["birth_datetime"], chall["birth_location"][0], chall["birth_location"][1]
-    )
+    # Natal charts: birthdate only, fixed location (sign positions only)
+    champ_chart = get_chart_dict(champ["birth_datetime"], 0.0, 0.0)
+    chall_chart = get_chart_dict(chall["birth_datetime"], 0.0, 0.0)
+
+    # Horary house cusps from fight venue + bell time
+    horary_cusps = get_horary_house_cusps(fight["datetime"], clat, clon)
 
     event_result = analyze_event_chart(fight["datetime"], clat, clon, w)
-    natal_cmp = compare_natal_fighters(champ_chart, chall_chart, w)
+    natal_cmp = compare_natal_in_horary(champ_chart, chall_chart, horary_cusps, w)
 
     champ_final, chall_final, conf_raw = _apply_combination_logic(
         event_result, natal_cmp, w
@@ -179,6 +181,113 @@ def analyze_fight(fight: dict, weights: dict = None) -> dict:
                 "champion": round(champ_final, 3),
                 "challenger": round(chall_final, 3),
             },
+        },
+    }
+
+
+def analyze_fight_live(
+    fighter1_name: str, fighter1_birthdate: str,
+    fighter2_name: str, fighter2_birthdate: str,
+    venue_datetime: str,
+    venue_lat: float, venue_lon: float,
+    weights: dict = None,
+) -> dict:
+    """
+    On-demand fight analysis for the web UI.
+
+    Uses the horary methodology: natal planets placed in horary chart houses.
+    Birth time is not needed — birthdate only (noon UTC is used).
+
+    Args:
+        fighter1_name: display name for fighter 1
+        fighter1_birthdate: "YYYY-MM-DD"
+        fighter2_name: display name for fighter 2
+        fighter2_birthdate: "YYYY-MM-DD"
+        venue_datetime: ISO 8601 with offset e.g. "2024-11-09T21:00:00-08:00"
+        venue_lat: venue latitude
+        venue_lon: venue longitude
+        weights: optional scoring overrides
+
+    Returns:
+        Dict with prediction, confidence, and full factor breakdown.
+    """
+    w = {**DEFAULT_WEIGHTS, **(weights or {})}
+
+    # Natal charts: noon UTC, equator (birth location irrelevant — signs only)
+    f1_birth_dt = fighter1_birthdate + "T12:00:00+00:00"
+    f2_birth_dt = fighter2_birthdate + "T12:00:00+00:00"
+    f1_chart = get_chart_dict(f1_birth_dt, 0.0, 0.0)
+    f2_chart = get_chart_dict(f2_birth_dt, 0.0, 0.0)
+
+    # Horary house cusps from fight venue + bell time
+    horary_cusps = get_horary_house_cusps(venue_datetime, venue_lat, venue_lon)
+
+    # Place each fighter's natal planets in the horary houses
+    from ephemeris import place_in_houses
+    f1_house_map = {p["planet"]: place_in_houses(p["longitude"], horary_cusps)
+                    for p in f1_chart["planets"]}
+    f2_house_map = {p["planet"]: place_in_houses(p["longitude"], horary_cusps)
+                    for p in f2_chart["planets"]}
+
+    # Score each fighter's natal planets using horary house placement
+    f1_scores = analyze_natal_in_horary(f1_chart, f1_house_map, w)
+    f2_scores = analyze_natal_in_horary(f2_chart, f2_house_map, w)
+
+    # Secondary: horary chart's own planet polarity (champion=1-6, challenger=7-12)
+    # (minor signal, weighted at event_weight)
+    event_result = analyze_event_chart(venue_datetime, venue_lat, venue_lon, w)
+
+    # Build natal_cmp dict for combination logic (fighter1 = "champion" slot)
+    natal_cmp = {
+        "champion_bonus": f1_scores["total"],
+        "challenger_bonus": f2_scores["total"],
+    }
+    f1_final, f2_final, conf_raw = _apply_combination_logic(event_result, natal_cmp, w)
+
+    predicted_winner = fighter1_name if f1_final >= f2_final else fighter2_name
+    confidence = max(50.0, min(99.0, round(50.0 + min(conf_raw * 2.5, 49.0), 1)))
+
+    def planet_detail(chart, house_map):
+        rows = []
+        for p in chart["planets"]:
+            name = p["planet"]
+            sign = p["sign"]
+            house = house_map.get(name, 0)
+            dig = dignity_score(name, sign, w)
+            hs = house_score(house, w)
+            rows.append({
+                "planet": name,
+                "sign": sign,
+                "dignity": round(dig, 1),
+                "horary_house": house,
+                "house_score": round(hs, 1),
+                "total": round(dig + hs, 1),
+            })
+        return rows
+
+    return {
+        "predicted_winner": predicted_winner,
+        "confidence": confidence,
+        "fighter1": {
+            "name": fighter1_name,
+            "vitality": round(f1_scores["vitality"], 2),
+            "alertness": round(f1_scores["alertness"], 2),
+            "temperament": round(f1_scores["temperament"], 2),
+            "total": round(f1_scores["total"], 2),
+            "planets": planet_detail(f1_chart, f1_house_map),
+        },
+        "fighter2": {
+            "name": fighter2_name,
+            "vitality": round(f2_scores["vitality"], 2),
+            "alertness": round(f2_scores["alertness"], 2),
+            "temperament": round(f2_scores["temperament"], 2),
+            "total": round(f2_scores["total"], 2),
+            "planets": planet_detail(f2_chart, f2_house_map),
+        },
+        "horary_chart": {
+            "fighter1_score": round(event_result["champion_score"], 2),
+            "fighter2_score": round(event_result["challenger_score"], 2),
+            "planet_assignments": event_result["planet_assignments"],
         },
     }
 

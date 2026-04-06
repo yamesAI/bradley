@@ -10,6 +10,7 @@ Each planet is scored by dignity + house placement.
 """
 
 from dignities import dignity_score
+from ephemeris import place_in_houses
 
 VITALITY_PLANETS = ["Sun", "Moon", "Mars"]
 ALERTNESS_PLANETS = ["Mercury", "Uranus"]
@@ -89,6 +90,94 @@ def analyze_natal_chart(chart: dict, weights: dict = None) -> dict:
         "alertness": a,
         "temperament": t,
         "total": v + a + t,
+    }
+
+
+def _planet_score_horary(planet_data: dict, horary_house: int, weights: dict) -> float:
+    """Score a natal planet using its sign dignity + its house in the horary chart."""
+    d = dignity_score(planet_data["planet"], planet_data["sign"], weights)
+    h = house_score(horary_house, weights)
+    return d + h
+
+
+def score_factor_horary(planets_data: list, planet_names: list,
+                        horary_house_map: dict, weights: dict) -> float:
+    """Sum scores for a planet group using dignity from natal signs + horary house placement."""
+    lookup = {p["planet"]: p for p in planets_data}
+    total = 0.0
+    for name in planet_names:
+        if name in lookup and name in horary_house_map:
+            total += _planet_score_horary(lookup[name], horary_house_map[name], weights)
+    return total
+
+
+def analyze_natal_in_horary(chart: dict, horary_house_map: dict,
+                             weights: dict = None) -> dict:
+    """
+    Compute Bradley's three natal factors for a fighter, using horary houses
+    instead of the fighter's own natal houses.
+
+    Args:
+        chart: natal chart dict — only .planets[].sign and .planets[].longitude used
+        horary_house_map: {planet_name: house_int} from place_in_houses()
+        weights: dignity + house weights dict
+
+    Returns:
+        {"vitality": float, "alertness": float, "temperament": float, "total": float}
+    """
+    w = {**DEFAULT_WEIGHTS, **(weights or {})}
+    planets = chart["planets"]
+    v = score_factor_horary(planets, VITALITY_PLANETS, horary_house_map, w) * w.get("vitality_w", 1.0)
+    a = score_factor_horary(planets, ALERTNESS_PLANETS, horary_house_map, w) * w.get("alertness_w", 1.0)
+    t = score_factor_horary(planets, TEMPERAMENT_PLANETS, horary_house_map, w) * w.get("temperament_w", 1.0)
+    return {"vitality": v, "alertness": a, "temperament": t, "total": v + a + t}
+
+
+def compare_natal_in_horary(champ_chart: dict, chall_chart: dict,
+                             horary_cusps: tuple, weights: dict = None) -> dict:
+    """
+    Main horary-methodology comparison: place both fighters' natal planets
+    in the horary chart house system and score them.
+
+    Args:
+        champ_chart: natal chart dict for the champion
+        chall_chart: natal chart dict for the challenger
+        horary_cusps: 12-tuple of house cusp longitudes from get_horary_house_cusps()
+        weights: scoring weights dict
+
+    Returns:
+        Same structure as compare_natal_fighters() for drop-in compatibility.
+    """
+    def build_house_map(chart):
+        return {p["planet"]: place_in_houses(p["longitude"], horary_cusps)
+                for p in chart["planets"]}
+
+    champ_map = build_house_map(champ_chart)
+    chall_map = build_house_map(chall_chart)
+
+    champ = analyze_natal_in_horary(champ_chart, champ_map, weights)
+    chall = analyze_natal_in_horary(chall_chart, chall_map, weights)
+
+    def dominant(cv, xv):
+        if cv > xv: return "champion"
+        if xv > cv: return "challenger"
+        return "even"
+
+    return {
+        "champion_vitality": champ["vitality"],
+        "challenger_vitality": chall["vitality"],
+        "vitality_dominant": dominant(champ["vitality"], chall["vitality"]),
+        "champion_alertness": champ["alertness"],
+        "challenger_alertness": chall["alertness"],
+        "alertness_dominant": dominant(champ["alertness"], chall["alertness"]),
+        "champion_temperament": champ["temperament"],
+        "challenger_temperament": chall["temperament"],
+        "temperament_dominant": dominant(champ["temperament"], chall["temperament"]),
+        "champion_bonus": champ["total"],
+        "challenger_bonus": chall["total"],
+        # Return per-fighter house maps for UI detail
+        "_champ_house_map": champ_map,
+        "_chall_house_map": chall_map,
     }
 
 

@@ -25,21 +25,30 @@ SIGNS = [
 ]
 
 
-def _parse_jd(dt_utc_str: str) -> float:
-    """Parse ISO 8601 UTC string to Julian Day Number."""
-    s = dt_utc_str.replace("Z", "+00:00")
-    # Parse manually to avoid datetime import issues with old Python
-    # Format: YYYY-MM-DDTHH:MM:SS+00:00
-    date_part, time_part = s.split("T")
-    year, month, day = map(int, date_part.split("-"))
-    # Strip timezone offset — all inputs are UTC
-    time_clean = time_part.split("+")[0].split("-")[0] if "+" in time_part or (
-        "-" in time_part and time_part.index("-") > 2
-    ) else time_part
-    # Handle the case like "00:35:00"
-    h, m, sec = time_clean.split(":")
-    hour_decimal = int(h) + int(m) / 60.0 + float(sec) / 3600.0
-    return swe.julday(year, month, day, hour_decimal)
+def _parse_jd(dt_str: str) -> float:
+    """
+    Parse ISO 8601 string (UTC or with timezone offset) to Julian Day (UT).
+
+    Accepts:
+      "2024-11-09T21:00:00-08:00"  — local time with offset
+      "1975-10-01T10:45:00+08:00"  — local time with positive offset
+      "1974-10-30T02:00:00Z"       — UTC
+    """
+    from datetime import datetime, timezone
+    s = dt_str.strip()
+    if s.endswith("Z"):
+        s = s[:-1] + "+00:00"
+    try:
+        dt = datetime.fromisoformat(s)
+    except ValueError:
+        # Fallback: treat bare datetime as UTC
+        dt = datetime.fromisoformat(s[:19]).replace(tzinfo=timezone.utc)
+    if dt.tzinfo is not None:
+        dt_utc = dt.astimezone(timezone.utc)
+    else:
+        dt_utc = dt.replace(tzinfo=timezone.utc)
+    hour_decimal = dt_utc.hour + dt_utc.minute / 60.0 + dt_utc.second / 3600.0
+    return swe.julday(dt_utc.year, dt_utc.month, dt_utc.day, hour_decimal)
 
 
 @functools.lru_cache(maxsize=512)
@@ -113,6 +122,33 @@ def get_chart_dict(dt_utc_str: str, lat: float, lon: float) -> dict:
         for p in packed_planets
     ]
     return {"planets": planets, "asc": asc, "mc": mc}
+
+
+@functools.lru_cache(maxsize=512)
+def get_horary_house_cusps(fight_dt: str, lat: float, lon: float) -> tuple:
+    """
+    Return 12 Placidus house cusp longitudes for the horary chart (fight venue + bell time).
+    Result is cached — identical inputs return the same tuple without re-computing.
+
+    Args:
+        fight_dt: ISO 8601 with timezone offset e.g. "2024-11-09T21:00:00-08:00"
+        lat: venue latitude
+        lon: venue longitude
+
+    Returns:
+        Tuple of 12 floats: cusp longitudes for houses 1–12.
+    """
+    jd = _parse_jd(fight_dt)
+    houses, _ = swe.houses(jd, lat, lon, b"P")
+    return tuple(round(c, 4) for c in houses[:12])
+
+
+def place_in_houses(planet_lon: float, house_cusps: tuple) -> int:
+    """
+    Given a planet's ecliptic longitude and the 12 horary house cusps,
+    return the house number (1–12) the planet falls in.
+    """
+    return _fallback_house(planet_lon, house_cusps)
 
 
 def _fallback_house(planet_lon: float, houses: tuple) -> int:
